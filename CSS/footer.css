@@ -1,0 +1,22 @@
+nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(219, 219, 219, 0.5);
+  font-size: 1.3rem;
+  padding: 10px;
+  height: 4rem;
+}
+
+/* -------MENU - ICONS ---------
+.material-icons {
+  font-family: "Material Icons";
+  font-style: normal;
+  font-style: normal;
+}
+
+.material-symbols-outlined {
+    font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+    width: 24px;
+    color: var(--secondary-color);
+}
+*/
