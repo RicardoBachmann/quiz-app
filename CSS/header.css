@@ -1,0 +1,10 @@
+header {
+  background-color: rgb(219, 219, 219, 0.5);
+  height: 4rem;
+}
+
+h1 {
+  font-size: 3rem;
+  color: var(--primary-color);
+  text-align: center;
+}
