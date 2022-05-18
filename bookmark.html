@@ -17,7 +17,7 @@
       href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
     />
 
-    <title>Bookmark</title>
+    <title>Bookmarks</title>
   </head>
 
   <body>
@@ -31,7 +31,7 @@
           <img
             src="/Icons/bookmark_remove.svg"
             class="bookmark__remove"
-            alt="Bookmark remove icon"
+            alt="Bookmark remove button"
           />
         </div>
 
@@ -42,7 +42,10 @@
           Commodi alias earum?
         </p>
 
-        <button class="action--button">Show/Hide answer</button>
+        <button data-js="action_button" class="action__button">
+          Show/Hide answer
+        </button>
+        <div class="answer" data-js="answer-container"></div>
         <div class="tags">
           <ul role="list" class="tag--list">
             <li class="tag--list">#Hello</li>
@@ -68,7 +71,7 @@
           Commodi alias earum?
         </p>
 
-        <button class="action--button">Show/Hide answer</button>
+        <button class="action__button">Show/Hide answer</button>
         <div class="tags">
           <ul role="list" class="tag--list">
             <li class="tag--list">#Hello</li>

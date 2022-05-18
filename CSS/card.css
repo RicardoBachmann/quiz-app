@@ -20,7 +20,7 @@
   right: 0.2rem;
 }
 
-.action--button {
+.action__button {
   font-size: 1em;
   font-weight: 400;
   padding: 0.3rem;
@@ -30,6 +30,18 @@
   background-color: var(--secondary-color);
   box-shadow: 0 0 1em var(--secondary-color);
   position: relative;
+}
+
+.show-answer {
+  display: none;
+}
+
+.show-answer--active {
+  display: block;
+}
+
+.action__button-active {
+  background-color: red;
 }
 
 .submit--button {
