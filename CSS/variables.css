@@ -3,5 +3,5 @@
   --secondary-color: rgb(87 191 153);
   --card-background-color: rgb(219 219 219);
   --tags-background-color: rgb(241 241 241);
-  --navigation-color: rgb(219 219 219 50%);
+  --navigation-color: rgba(219 219 219 /50%);
 }
