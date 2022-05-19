@@ -13,7 +13,7 @@ nav {
 }
 
 .menu__bookmark {
-  background-color: var(--navigation-background-color);
+  background-color: var(--navigation-color);
   border-radius: 50%;
   width: 3rem;
   height: 3rem;
