@@ -1,5 +1,5 @@
 header {
-  background-color: rgb(219, 219, 219, 0.5);
+  background-color: var(--navigation-background-color);
   height: 5rem;
 }
 

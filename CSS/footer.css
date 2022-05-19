@@ -5,7 +5,7 @@ nav {
 }
 
 .menu {
-  background-color: rgb(219, 219, 219, 0.5);
+  background-color: var(--navigation-color);
   height: 4rem;
   display: flex;
   justify-content: space-evenly;
@@ -13,7 +13,7 @@ nav {
 }
 
 .menu__bookmark {
-  background-color: rgb(219, 219, 219, 0.5);
+  background-color: var(--navigation-background-color);
   border-radius: 50%;
   width: 3rem;
   height: 3rem;
