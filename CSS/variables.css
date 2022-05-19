@@ -1,4 +1,7 @@
 :root {
-  --primary-color: rgb(6, 20, 118);
-  --secondary-color: rgb(87, 191, 153);
+  --primary-color: rgb(6 20 118);
+  --secondary-color: rgb(87 191 153);
+  --card-background-color: rgb(219 219 219);
+  --tags-background-color: rgb(241 241 241);
+  --navigation-background-color: rgb(219 219 219 50%);
 }
