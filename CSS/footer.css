@@ -5,7 +5,7 @@ nav {
 }
 
 .menu {
-  background-color: var(--navigation-background-color);
+  background-color: var(--navigation-color);
   height: 4rem;
   display: flex;
   justify-content: space-evenly;
