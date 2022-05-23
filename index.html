@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./CSS/components/index.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -22,84 +22,26 @@
 
   <body>
     <header>
-      <h1>Quiz-App</h1>
+      <h1>Quiz-App ¿</h1>
     </header>
 
     <main>
       <section class="card">
-        <div class="bookmark">
+        <button class="bookmark" data-js="add-bookmark">
           <img
+            class="bookmark__icon--remove"
             src="/Icons/bookmark_remove.svg"
-            class="bookmark__remove"
-            alt="Bookmark remove icon"
+            alt="Bookmark remove"
           />
-        </div>
-
-        <h2>QUESTION:</h2>
-
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi, vel!
-          Commodi alias earum?
-        </p>
-
-        <div class="show-answer" data-js="show-answer-text">
-          <p>ANTWORT ANTWORT ANTWORT</p>
-        </div>
-
-        <button class="action__button" data-js="action-button">
-          Show/Hide answer
         </button>
 
-        <div class="tags">
-          <ul role="list" class="tag--list">
-            <li class="tag--list">#Hello</li>
-            <li class="tag--list">#Hello</li>
-            <li class="tag--list">#Hello</li>
-            <li class="tag--list">#Hello</li>
-          </ul>
-        </div>
-      </section>
-
-      <section class="card">
-        <div class="bookmark">
+        <button class="bookmark" data-js="remove-bookmark">
           <img
-            src="/Icons/bookmark_add.svg"
-            class="bookmark__remove"
-            alt="Bookmark remove icon"
-          />
-        </div>
-
-        <h2>QUESTION:</h2>
-
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi, vel!
-          Commodi alias earum?
-        </p>
-
-        <div class="button__answer">
-          Lorem ipsum dolor, sit amet consectetur adipisicing
-        </div>
-
-        <button class="action__button">Show/Hide answer</button>
-
-        <div class="tags">
-          <ul role="list" class="tag--list">
-            <li class="tag--list">#Hello</li>
-            <li class="tag--list">#Hello</li>
-            <li class="tag--list">#Hello</li>
-            <li class="tag--list">#Hello</li>
-          </ul>
-        </div>
-      </section>
-
-      <section class="card">
-        <div class="bookmark">
-          <img
+            class="bookmark__icon--remove"
             src="/Icons/bookmark_remove.svg"
-            class="bookmark__remove"
-            alt="Bookmark remove icon"
+            alt="Bookmark remove"
           />
-        </div>
+        </button>
 
         <h2>QUESTION:</h2>
 
@@ -108,7 +50,82 @@
           Commodi alias earum?
         </p>
 
-        <button class="action__button">Show/Hide answer</button>
+        <button class="action__button" data-js="show-answer">
+          Show ¿ Hide Answer
+        </button>
+
+        <div class="show__answer" data-js="answer-display">
+          <p>42 ist die Antwort auf alles!</p>
+        </div>
+
+        <div class="tags">
+          <ul role="list" class="tag--list">
+            <li class="tag--list">#Hello</li>
+            <li class="tag--list">#Hello</li>
+            <li class="tag--list">#Hello</li>
+            <li class="tag--list">#Hello</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="card">
+        <button class="bookmark">
+          <img
+            class="bookmark__icon--add"
+            src="/Icons/bookmark_add.svg"
+            alt="Bookmark add"
+          />
+        </button>
+
+        <h2>QUESTION:</h2>
+
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi, vel!
+          Commodi alias earum?
+        </p>
+
+        <button class="action__button" data-js="show-answer">
+          Show ¿ Hide Answer
+        </button>
+
+        <div class="show__answer" data-js="answer-display">
+          <p>42 ist die Antwort auf alles!</p>
+        </div>
+
+        <div class="tags">
+          <ul role="list" class="tag--list">
+            <li class="tag--list">#Hello</li>
+            <li class="tag--list">#Hello</li>
+            <li class="tag--list">#Hello</li>
+            <li class="tag--list">#Hello</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="card">
+        <button class="bookmark">
+          <img
+            class="bookmark__icon--remove"
+            src="/Icons/bookmark_remove.svg"
+            alt="Bookmark remove"
+          />
+        </button>
+
+        <h2>QUESTION:</h2>
+
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi, vel!
+          Commodi alias earum?
+        </p>
+
+        <button class="action__button" data-js="show-answer">
+          Show ¿ Hide Answer
+        </button>
+
+        <div class="show__answer" data-js="answer-display">
+          <p>42 ist die Antwort auf alles!</p>
+        </div>
+
         <div class="tags">
           <ul role="list" class="tag--list">
             <li class="tag--list">#Hello</li>
@@ -129,6 +146,6 @@
         </nav>
       </footer>
     </main>
-    <script src="./Javascript/index.js" defer></script>
+    <script type="module" src="./index.js"></script>
   </body>
 </html>
