@@ -16,6 +16,5 @@ export function answers() {
 
   showButton.addEventListener('click', () => {
     answerText.classList.toggle('show__answer--active');
-    //showButton.textContent = 'Hide Answer';
   });
 }

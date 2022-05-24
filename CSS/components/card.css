@@ -12,19 +12,15 @@
   background-color: var(--card-background-color);
 }
 
+.bookmark__icon {
+  width: 36px;
+  height: 36px;
+}
+
 .bookmark__icon--remove {
   width: 36px;
   height: 36px;
-}
-
-.bookmark__icon--add {
-  width: 36px;
-  height: 36px;
-}
-
-.bookmark__add--active {
   display: block;
-  background-color: var(--secondary-color);
 }
 
 .bookmark {
@@ -68,6 +64,10 @@
 
 .show__answer--active {
   display: block;
+}
+
+.hidden {
+  display: none;
 }
 
 .submit--button {
