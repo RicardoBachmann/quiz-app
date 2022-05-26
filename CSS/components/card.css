@@ -12,7 +12,27 @@
   background-color: var(--card-background-color);
 }
 
-.bookmark__remove {
+.bookmark__icon {
+  width: 36px;
+  height: 36px;
+}
+
+.bookmark__icon--remove {
+  width: 36px;
+  height: 36px;
+  display: block;
+}
+
+.bookmark {
+  width: 36px;
+  height: 36px;
+  right: 10px;
+  position: absolute;
+  background-color: transparent;
+  border: transparent;
+}
+
+.b3 {
   width: 2em;
   height: 2em;
   position: absolute;
@@ -21,8 +41,8 @@
 }
 
 .action__button {
+  font-family: Nunito, sans-serif;
   font-size: 1em;
-  font-weight: 400;
   padding: 0.3rem;
   margin: 1rem;
   border: none;
@@ -32,16 +52,22 @@
   position: relative;
 }
 
-.show-answer {
+.show__answer {
   display: none;
+  font-weight: 600;
+  background: var(--secondary-color);
+  box-shadow: 0 0 1em var(--secondary-color);
+  border-radius: 0.9em;
+  padding: 0.9em;
+  margin: 0.9em;
 }
 
-.show-answer--active {
+.show__answer--active {
   display: block;
 }
 
-.action__button-active {
-  background-color: red;
+.hidden {
+  display: none;
 }
 
 .submit--button {
